@@ -1,0 +1,17 @@
+flags: {}
+extra-deps:
+- haskell-qrencode-1.0.4
+packages:
+- '.'
+- 'libs/diagrams-qrcode'
+resolver: lts-9.2
+nix:
+  enable: true
+  shell-file: shell.nix
+    # packages:
+    # - darwin.apple_sdk.frameworks.Cocoa
+    # - darwin.apple_sdk.frameworks.CoreServices
+    # - pango
+    # - pkgconfig
+    # - qrencode
+    # - zlib
