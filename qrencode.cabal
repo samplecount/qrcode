@@ -23,4 +23,8 @@ executable qrencode
       diagrams-cairo,
       diagrams-lib,
       diagrams-qrcode,
-      haskell-qrencode
+      directory,
+      filepath,
+      haskell-qrencode,
+      process,
+      split

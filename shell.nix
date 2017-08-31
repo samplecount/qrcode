@@ -9,6 +9,7 @@ haskell.lib.buildStackProject {
     darwin.apple_sdk.frameworks.CoreServices
     pango
     pkgconfig
+    poppler_utils
     qrencode
     zlib
   ];
