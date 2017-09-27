@@ -17,6 +17,7 @@ cabal-version:       >=1.2
 
 executable qrencode
   main-is:             qrencode.hs
+  ghc-options:         -Wall
   other-modules:       Paths_qrencode
   build-depends:
       base,
@@ -28,3 +29,16 @@ executable qrencode
       haskell-qrencode,
       process,
       split
+
+executable qrencode-links
+  main-is:             qrencode_links.hs
+  ghc-options:         -Wall
+  other-modules:       Paths_qrencode
+  build-depends:
+      base,
+      diagrams-cairo,
+      diagrams-lib,
+      diagrams-qrcode,
+      directory,
+      filepath,
+      haskell-qrencode
